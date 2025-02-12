@@ -95,8 +95,8 @@ function createMap(time_frame) {
       let geoLayer = L.geoJSON(plate_data, {
         // Dynamic Style Object
         style: {
-          color: "firebrick",
-          weight: 5
+          color: "green",
+          weight: 3
           }
       });
 
